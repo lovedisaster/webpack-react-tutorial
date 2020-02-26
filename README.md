@@ -1,6 +1,9 @@
 # webpack-react-tutorials
-The front end is specialized and comes with lots libraries, settings which makes us frustrated with setting up a project. 
-Even with create react app kind of tools, you still need to understand how's every detail works can you customize and optimize you build to extreme. This repository comes with step by step tutorials with small sample project as demo, hope which can help developers understand the build process in a more comfortable way. 
+The front end is very specialized and it comes with lots of libraries, settings or configurations. It can make developers frustrated especially when setting up a project from scratch. 
+
+Thanks to tools like create-react-app, with them we don't need to think too much about the build process but if you don't understand how's all the details work it is still hard for a developer to customize and optimize to certain needs, eg,. performance optimization or microfront ended or server side prerendering ... etc. 
+
+This repository comes with some step by step tutorials with small demos, hope which can help us understand the build process in a more comfortable way. 
 
 ## Project 1: 
 Using webpack to transpile simple ES2015 syntax files
