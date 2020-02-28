@@ -7,14 +7,11 @@ module.exports = env => {
             filename: `[name].js`,
             path: path.join(__dirname, 'dist')
         },
-        resolve: {
-            extensions: ['.js', '.jsx']
-        },
         devtool: 'eval-source-map',
         module: {
             rules: [
                 { 
-                    test: /\.(js|.jsx)$/, 
+                    test: /\.(js)$/, 
                     exclude: /node_modules/, 
                     use: {loader: 'babel-loader'}
                 }

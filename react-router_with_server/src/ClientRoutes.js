@@ -7,7 +7,7 @@ import List from './components/Listing/Listing';
 
 export const ClientRoutes = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter> 
             <div>
                 <Link to={"/home"}>Home</Link> &nbsp;
                 <Link to={"/list"}>List</Link>
@@ -16,8 +16,8 @@ export const ClientRoutes = () => {
                 <Route exact={true} path="/home">
                     <Home/>
                 </Route>
-                <Route exact={true} path="/list" render={() => {
-                    // console.dir(props);
+                <Route exact={true} path="/list" render={(props) => {
+                    console.dir(props);
                     return <List/>;
                 }}>
                 </Route>            
