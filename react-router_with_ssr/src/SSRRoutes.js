@@ -16,7 +16,6 @@ export const SSRRoutes = () => {
                     <Home/>
                 </Route>
                 <Route exact={true} path="/list" render={() => {
-                    // console.dir(props);
                     return <List/>;
                 }}>
                 </Route>            
