@@ -5,7 +5,7 @@ class Listing extends PureComponent {
     render() {
         return (
             <div>
-                <h1>This is listing page</h1>
+                <h1>This is the listing page</h1>
             </div>
         );
     }

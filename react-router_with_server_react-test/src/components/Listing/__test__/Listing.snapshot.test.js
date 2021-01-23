@@ -1,8 +1,8 @@
 import React from 'react';
 import Listing from '../Listing';
-import renderer from 'react-test-render';
+import TestRenderer from 'react-test-renderer';
 
 it("listing page snapshot" , () => {
-    const listingPage = renderer.create(<Listing></Listing>).toJSON();
+    const listingPage = TestRenderer.create(<Listing></Listing>).toJSON();
     expect(listingPage).toMatchSnapshot();
 });
