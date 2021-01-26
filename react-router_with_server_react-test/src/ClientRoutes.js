@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter,Switch, Route,Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import List from './components/Listing/Listing';
-// import { createBrowserHistory } from 'history';
-// const browserHistory = createBrowserHistory();
 
 export const ClientRoutes = () => {
     return(
@@ -24,8 +22,3 @@ export const ClientRoutes = () => {
         </BrowserRouter>
     )
 }
-
-/* 
-    React history, location 
-    https://reacttraining.com/react-router/web/api/history
-*/
