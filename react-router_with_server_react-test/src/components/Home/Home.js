@@ -7,12 +7,15 @@ const Home = (props) => {
   let [currentValue, setCurrentValue] = useState("");
   let [todoList, setTodoList] = useState(null);
   
-  useEffect(() => {
-    GetListItems()
-      .then((todoList) => {
-        setTodoList(todoList);
-      })
-      .catch((e) => console.log(e));
+  useEffect(async () => {
+      const todoList = await GetListItems();
+      setTodoList(todoList);
+
+    // GetListItems()
+    //   .then((todoList) => {
+    //     setTodoList(todoList);
+    //   })
+    //   .catch((e) => console.log(e));
   }, []);
   
   return (

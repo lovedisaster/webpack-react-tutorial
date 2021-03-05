@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const GetListItems = () => {
-    return axios.get("/getTodoList");
+    return axios.get("/getTodoList");;
 }
