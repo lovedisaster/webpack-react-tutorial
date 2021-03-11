@@ -22,7 +22,7 @@
     "history": "^4.10.1",
     "http": "0.0.0",
     "node-static": "^0.7.11",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
