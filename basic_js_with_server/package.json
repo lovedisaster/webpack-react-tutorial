@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "http": "0.0.0",
     "node-static": "^0.7.11",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "rimraf": "^3.0.2",
     "volleyball": "^1.5.1",
     "webpack": "^4.41.6",
