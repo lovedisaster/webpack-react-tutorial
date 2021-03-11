@@ -1,30 +1,24 @@
 import React from 'react';
-import { StaticRouter,Switch, Route,Link } from 'react-router-dom';
+import { BrowserRouter,Switch, Route,Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import List from './components/Listing/Listing';
 
-
-export const SSRRoutes = () => {
+export const ClientRoutes = () => {
     return(
-        <StaticRouter>
+        <BrowserRouter> 
             <div>
-                <Link to={"/home"}>Home</Link> &nbsp;
+                <Link to={"/"}>Home</Link> &nbsp;
                 <Link to={"/list"}>List</Link>
             </div>
             <Switch>
-                <Route exact={true} path="/home">
+                <Route exact={true} path="/">
                     <Home/>
                 </Route>
-                <Route exact={true} path="/list" render={() => {
+                <Route exact={true} path="/list" render={(props) => {
                     return <List/>;
                 }}>
                 </Route>            
             </Switch>
-        </StaticRouter>
+        </BrowserRouter>
     )
 }
-
-/* 
-    React history, location 
-    https://reacttraining.com/react-router/web/api/history
-*/
