@@ -5,18 +5,20 @@ Thanks to tools like create-react-app, with them we don't need to think too much
 
 This repository comes with some step by step tutorials with small demos, hope which can help us understand the build process in a more comfortable way. 
 
-## Project 1: 
+## basic_js: 
 Using webpack to transpile simple ES2015 syntax files
 
-## Project 2: 
+## basic_js_with_server: 
 Add node server with pug page rendering
 
-## Project 3: 
+## react_with_server: 
 Using webpack to transpile react syntax with node server
 
-
-## Project 4: 
+## react-router_with_server: 
 Understand react router 
 
-## Project 5: 
+## react-router_with_ssr: 
 Hands on with react SSR with node
+
+## react-router_with_server_react-test: 
+Added react unit test to the code base
